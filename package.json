@@ -2,10 +2,20 @@
   "name": "onelistguru",
   "version": "1.0.0",
   "description": "MEAN Stack Custom List App",
-  "main": "index.js",
+  "main": "routes/index.js",
   "dependencies": {
     "express": "^4.15.2",
-    "express-generator": "^4.14.1"
+    "express-generator": "^4.14.1",
+    "express-handlebars": "^3.0.0",
+    "body-parser": "~1.16.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "express": "~4.14.1",
+    "jade": "~1.11.0",
+    "kerberos": "~0.0.17",
+    "mongoddb": "~2.0.33",
+    "morgan": "~1.7.0",
+    "serve-favicon": "~2.3.2"
   },
   "devDependencies": {},
   "scripts": {
