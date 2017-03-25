@@ -1,0 +1,24 @@
+{
+  "name": "onelistguru",
+  "version": "1.0.0",
+  "description": "MEAN Stack Custom List App",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-generator": "^4.14.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JulieH2016/onelistguru.git"
+  },
+  "author": "Julie Hoffman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JulieH2016/onelistguru/issues"
+  },
+  "homepage": "https://github.com/JulieH2016/onelistguru#readme"
+}
