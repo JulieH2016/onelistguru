@@ -1,25 +1,11 @@
 {
   "name": "onelistguru",
   "version": "1.0.0",
-  "description": "MEAN Stack Custom List App",
-  "main": "routes/index.js",
-  "dependencies": {
-    "express": "^4.15.2",
-    "express-generator": "^4.14.1",
-    "express-handlebars": "^3.0.0",
-    "body-parser": "~1.16.0",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.6.0",
-    "express": "~4.14.1",
-    "jade": "~1.11.0",
-    "kerberos": "~0.0.17",
-    "mongoddb": "~2.0.33",
-    "morgan": "~1.7.0",
-    "serve-favicon": "~2.3.2"
-  },
-  "devDependencies": {},
+  "description": "A MEAN stack, list management application.\r Users can quickly create and print a custom list of important personal documents (hard copies) to gather and store with the list created.",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -30,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/JulieH2016/onelistguru/issues"
   },
-  "homepage": "https://github.com/JulieH2016/onelistguru#readme"
+  "homepage": "https://github.com/JulieH2016/onelistguru#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.3",
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0"
+  }
 }
