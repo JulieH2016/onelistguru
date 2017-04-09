@@ -1,6 +1,7 @@
 .bodyImg {
 
-  background:url('..assets/images/large_leather.png') no-repeat center center fixed; 
+  style="background:url("https://www.topal.com/designers/subtlepatterns/patterns/large_leather.png") no-repeat center center fixed;"
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

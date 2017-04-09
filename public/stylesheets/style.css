@@ -1,6 +1,6 @@
-body {
+bodyImg {
 
-  background: url("..onelistguru/public/images/large_leather.png");
+	style="background:url('https://www.toptal.com/designers/subtlepatterns/patterns/large_leather.png');"
 
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
